@@ -1,0 +1,49 @@
+
+.box{
+  padding: 25px;
+  background-color: #8a8a8a;
+  margin: 30px;
+  border-radius: 25px;
+}
+
+.container{
+  display: grid; 
+  justify-content: center;
+  align-items:center;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 100%; 
+  width: 100px; 
+}
+
+.img{
+
+  width: 100%;
+  margin-left: 28%;
+  
+}
+
+.p{
+
+  font-size: 1.5rem;
+  margin-right: 5%;
+  color: white;
+  
+}
+
+.button {
+  height: 150px;
+  position: relative;
+ 
+}
+
+.vertical-center {
+  margin: 2px 45%;
+
+  position: absolute;
+  top: 0%;
+}
+
+strong
+{
+  color: rgb(70, 99, 99);
+}
