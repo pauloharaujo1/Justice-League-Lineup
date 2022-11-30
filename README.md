@@ -20,8 +20,8 @@
 
 - [x] Create the first prototype.
 - [ ] Implement new heroes.
-- [ ] Clean source code and change the name of the classes.
-- [ ] Responsive web design for mobile.
+- [x] Clean source code and change the name of the classes.
+- [x] Responsive web design for mobile.
 - [ ] Figure out an easier way to implement new heroes (maybe use a Framework).
 - [ ] Use the index.html to input new TV Shows I enjoy, like Avatar: The Last Air Bender.
 

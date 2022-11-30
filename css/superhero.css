@@ -1,9 +1,15 @@
+main {
+  background: #c3c3c3;
+  padding: 50px;
+}
 
-.box{
+.hero{
   padding: 25px;
   background-color: #8a8a8a;
   margin: 30px;
   border-radius: 25px;
+  width: 690px;
+  margin: auto;
 }
 
 .container{
@@ -13,17 +19,16 @@
   grid-template-columns: 1fr 1fr ;
   grid-template-rows: 100%; 
   width: 100px; 
+
 }
 
 .img{
-
   width: 100%;
-  margin-left: 28%;
+  margin: auto;
   
 }
 
 .p{
-
   font-size: 1.5rem;
   margin-right: 5%;
   color: white;
@@ -31,19 +36,15 @@
 }
 
 .button {
-  height: 150px;
-  position: relative;
- 
-}
-
-.vertical-center {
-  margin: 2px 45%;
-
-  position: absolute;
-  top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
 }
 
 strong
 {
   color: rgb(70, 99, 99);
+  
 }
+

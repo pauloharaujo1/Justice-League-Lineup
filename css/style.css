@@ -1,58 +1,42 @@
-body {
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-  background-image: linear-gradient(to right, #434343 0%, rgb(92, 92, 92) 100%);
-}
+/* HEADER, JL IMAGE AND BACKGROUND COLOR*/
+
+html {
+  background: #c3c3c3;
   
-.caixa {
-  margin: auto;
-  display: block;
-  text-align: center;
 }
 
-.colaborador {
+header{
+  display: inline-block;
+  margin-top: 1%;
+  padding: 5px;
+  position: relative;
+  background: #c3c3c3;
+} 
+
+.jlimg {  
+  width:100%;
+  height: auto;
+
+}  
+
+/* SUPERHERO BOX AND EVERYTHING RELATED*/
+
+.box {
   width: 280px;
-  padding: 0 16px;
   float:left;
   margin:1% 1%;
+  text-align: center;
+  border-radius: 4%;
+  padding: 10px;
 }
 
-.colaborador .cabecalho{
+.box .upper__side{
   border-radius: 10px 10px 0px 0px;
+  border: solid black;
+  
 }
 
-.cabecalhoww {
-  background-color:  #fcce00;
-  border-radius: 10px 10px 0px 0px;
-}
-
-.cabecalhosm {
-  background-color:  #ff0000;
-  border-radius: 10px 10px 0px 0px;
-}
-
-.cabecalhobt {
-  background-color:  #2b2929;
-  border-radius: 10px 10px 0px 0px;
-}
-
-.cabecalhofs {
-  background-color:  #ff0000;
-  border-radius: 10px 10px 0px 0px;
-}
-
-.cabecalhogl {
-  background-color:  #258022;
-  border-radius: 10px 10px 0px 0px;
-}
-
-.cabecalhohg {
-  background-color:  #ff9100;
-  border-radius: 10px 10px 0px 0px;
-}
-
-.colaborador img {
+.box img {
   width: 100px;
   border-radius: 50%;
   position: relative;
@@ -61,57 +45,88 @@ flex-direction: column;
   display: block;
 }
 
-.colaborador .rodape {
+.box .lower__side {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
   border-radius: 0px 0px 10px 10px;
   padding-top: 90px;
   text-align: center;
   padding-bottom: 40px;
+  border: solid 3px black;
 }
-.rodapeww
-{
-  background-color:  #f74141;
+
+.box .lower__side h4 {
+  font-size: 22px;
+  font-weight: bold;
+
 }
-.rodapesm
+
+.box .lower__side h5 {
+  font-size: 18px;
+}
+
+/*COLORS HEROS*/
+
+.upper__sm {
+  background-color:  #ff0000;
+  border-radius: 10px 10px 0px 0px;
+}
+.lower__sm
 {
   background-color:  #4340eb;
 }
-.rodapebt
+
+
+.upper__ww {
+  background-color:  #fcce00;
+  border-radius: 10px 10px 0px 0px;
+}
+.lower__ww
+{
+  background-color:  #f74141;
+}
+
+
+.upper__bt {
+  background-color:  #2b2929;
+  border-radius: 10px 10px 0px 0px;
+}
+.lower__bt
 {
   background-color:  #dbdbdb;
 }
-.rodapefs
+
+
+.upper__fs {
+  background-color:  #ff0000;
+  border-radius: 10px 10px 0px 0px;
+}
+.lower__fs
 {
   background-color:  #fae630;
 }
-.rodapegl
+
+
+.upper__gl {
+  background-color:  #258022;
+  border-radius: 10px 10px 0px 0px;
+}
+.lower__gl
 {
   background-color:  #7aeba5;
 }
-.rodapehg
+
+
+
+.upper__hg {
+  background-color:  #ff9100;
+  border-radius: 10px 10px 0px 0px;
+}
+.lower__hg
 {
   background-color:  #474645;
 }
 
-.colaborador .rodape h4 {
-  color: #000000;
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-
-.colaborador .rodape h5 {
-  font-size: 18px;
-  line-height: 22px;
-  color: #212121;
-  padding: 0 16px;
-}
-
-.descricao__fotter {
-  color: white;
-font-size: 20px;
-}
+/* BUTTONS */
 
 .button-7 {
   background-color: #009B77;
@@ -137,11 +152,13 @@ font-size: 20px;
   touch-action: manipulation;
   vertical-align: baseline;
   white-space: nowrap;
+  
 }
 
 .button-7:hover,
 .button-7:focus {
   background-color: #07c;
+  cursor:pointer;
 }
 
 .button-7:focus {
@@ -153,16 +170,3 @@ font-size: 20px;
   box-shadow: none;
 }
 
-.text-center {
-	text-align: center;
-	color: #fff;
-	min-height:50px
-  }
-
-  #footer {
-	position: fixed;
-	bottom: 0;
-	width: 100%;
-	height: 60px;   
-	background-image: linear-gradient(to right, #434343 0%, rgb(92, 92, 92) 100%);
- }
