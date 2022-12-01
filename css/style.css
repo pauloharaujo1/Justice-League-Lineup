@@ -22,13 +22,17 @@ header{
 /* SUPERHERO BOX AND EVERYTHING RELATED*/
 
 .box {
-  width: 280px;
-  float:left;
+  width: 200px;
+  float: left;
   margin:1% 1%;
+  align-items: center;
   text-align: center;
   border-radius: 4%;
-  padding: 10px;
+  padding: 9px;
+  background-color: black;
+  border: solid black;
 }
+
 
 .box .upper__side{
   border-radius: 10px 10px 0px 0px;
@@ -48,20 +52,20 @@ header{
 .box .lower__side {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
   border-radius: 0px 0px 10px 10px;
-  padding-top: 90px;
+  padding-top: 30%;
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   border: solid 3px black;
 }
 
 .box .lower__side h4 {
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: 900;
 
 }
 
 .box .lower__side h5 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 /*COLORS HEROS*/
@@ -116,14 +120,35 @@ header{
 }
 
 
-
 .upper__hg {
   background-color:  #ff9100;
   border-radius: 10px 10px 0px 0px;
 }
 .lower__hg
 {
-  background-color:  #474645;
+  background-color:  #696867;
+}
+
+
+.upper__mm {
+  background-color:  #188f08;
+  border-radius: 10px 10px 0px 0px;
+}
+.lower__mm
+{
+  background-color:  #2e5cf3;
+
+}
+
+.upper__aq {
+  background-color:  #ecb21d;
+  border-radius: 10px 10px 0px 0px;
+}
+.lower__aq
+{
+  background-color:  #7fffd4;
+  
+
 }
 
 /* BUTTONS */
@@ -141,7 +166,7 @@ header{
   font-size: 13px;
   font-weight: 400;
   line-height: 1.15385;
-  margin: 0;
+  margin: 3%;
   outline: none;
   padding: 8px .8em;
   position: relative;

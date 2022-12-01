@@ -19,7 +19,7 @@
 
 
 - [x] Create the first prototype.
-- [ ] Implement new heroes.
+- [x] Implement new heroes.
 - [x] Clean source code and change the name of the classes.
 - [x] Responsive web design for mobile.
 - [ ] Figure out an easier way to implement new heroes (maybe use a Framework).
